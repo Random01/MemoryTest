@@ -1,7 +1,7 @@
-export class Pair {
+export class OptimizedPair {
 
-    public x = undefined;
-    public y = undefined;
+    public x = 0;
+    public y = 0;
 
     constructor(x: number, y: number) {
         this.x = x;
